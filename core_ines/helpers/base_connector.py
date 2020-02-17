@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-
+#An interface for further conncetors
 class BaseConnector:
     __metaclass__ = ABCMeta
     def __init__(self, path):
